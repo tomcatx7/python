@@ -1,6 +1,8 @@
 import json
 
 if __name__ == '__main__':
+    gray = int(10/2)
+    print(gray)
     pass
 # with open("../resource/test.json","r+") as f:
 #     str = ""
@@ -9,7 +11,6 @@ if __name__ == '__main__':
 #     # 将读取的json字符串转为字典
 #     j = json.loads(str)
 #     print(j)
-
 # with open("../resource/test.json","r+") as f:
 #    str ={"name":"tom","age":18}
 #    将字典对象转为json字符串并写入f文件中

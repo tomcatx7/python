@@ -1,0 +1,1 @@
+friendsName=['静水流深']
