@@ -1,6 +1,9 @@
 import xml.sax
 from xml.dom.minidom import parse
+import sys
 
+
+global text
 """sax方式解析"""
 class moviesHandler(xml.sax.ContentHandler):
     def __init__(self):
@@ -68,7 +71,13 @@ class xmlDomParse:
 
 
 if ( __name__ == "__main__"):
-    """open("../resource/movies.xml","r+")"""
+    text =not None
+    print(sys.path)
+    if text:
+        print("true")
+    else:
+        print('false')
+    # """open("../resource/movies.xml","r+")"""
 
     # parser = xml.sax.make_parser()
     # parser.setFeature(xml.sax.handler.feature_namespaces, 0)
